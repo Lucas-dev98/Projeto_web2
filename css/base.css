@@ -1,0 +1,64 @@
+html{ scroll-behavior: smooth; scroll-padding-top: 5vh; }
+
+body,
+.cabeçalho,
+.principal,
+.rodape,
+.navegar,
+div{
+    width:100%;
+}
+
+img{
+    width: 30vw;
+    height: 35vh;
+}
+
+h2{
+    text-align: center;
+    font-size: clamp(15px, 1.6vw, 10rem);
+    margin: 5rem;
+    color: rgb(209, 209, 209);
+}
+
+h3{
+    text-align: center;
+    color: rgb(209, 209, 209);
+    margin: 10px 0;
+}
+
+li{
+    padding: 20px 0;
+}
+a{
+    color: white;
+    padding: 2vh 2vw;
+    transition: all .2s ease;
+    font-size: clamp(10px, 1.5vw, 8rem);
+    border: none;
+}
+
+a:hover{
+    background: rgb(53, 53, 53);
+}
+
+.text{
+    font-size: clamp(10px, 1vw, 8rem);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex-reverse{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
