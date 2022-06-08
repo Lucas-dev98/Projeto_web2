@@ -1,0 +1,21 @@
+@media only screen and (max-width: 772px){
+    .caixa{
+        flex-direction: column;
+    }
+    .caixa img{
+        width: 80%;
+        margin: 20px 0;
+        min-width: 280px;
+    }
+
+    .seçao-quem img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .navegar{
+        display: none;
+    }
+}
+
