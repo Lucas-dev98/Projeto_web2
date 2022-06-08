@@ -1,0 +1,168 @@
+/* NAVEGAR */
+
+.navegar{
+    display: flex;
+    background-color: black;
+}
+
+.navegar .navegar-seçao{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.navegar .navegar-entrar{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cabeçalho{
+    background-image: url(https://observatorio3setor.org.br/wp-content/uploads/2022/03/young-woman-with-flag-ukraine-her-hands.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.titulo-principal{
+    font-size: clamp(40px, 4vw, 8rem);
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.seçao-familia{
+    background-color: rgb(14, 14, 14);
+}
+.seçao-quem{
+    background-color: rgb(17, 17, 17);
+}
+.seçao-missao{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.caixa.flex, .caixa.flex-reverse{
+    padding: 0 5vw;
+}
+
+.texto{
+    padding: 0 .9vw;
+    font-size: clamp(14px, 1.5vw, 8rem);
+    color: rgb(189, 189, 189);
+}
+
+.seçao-quem img{
+    width: 60%;
+    height: 50vh;
+}
+
+.seçao-quem p{
+    padding: 1vh 3vw;
+}
+
+.seçao-missao img{
+    width: 50%;
+    height: 50vh;
+    min-width: 320px;
+}
+
+.seçao-missao p{
+   padding: 20px;
+}
+
+form{
+    width: 30%;
+    min-width: 300px;
+    border-radius: 5px;
+}
+
+form div{
+    width: 90%;
+    margin: 10px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+}
+
+input[type="text"], input[type="email"], input[type="telefone"]{
+    padding: 10px;
+}
+
+input[type="submit"]{
+    border-radius: 5px;
+}
+
+textarea{
+    padding: 20px;
+    width: 80%;
+}
+
+label{
+    color: rgb(219, 219, 219);
+    font-size: clamp(12px, 1.2vw, 8rem);
+}
+
+.caixa-enviar{
+    text-align: center
+}
+
+.caixa-enviar .botao-enviar{
+    padding: 10px;
+    cursor: pointer
+}
+
+.copyright{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+    color: rgb(230, 230, 230);
+    padding: 5vh 0;
+    font-size: clamp(12px, 1vw, 12rem);
+}
+
+.seçao-contato{
+    margin-bottom: 100px;
+}
+
+.menssagem-form{
+    text-align: center;
+    width: 300px;
+}
+
+.menssagem-form p{
+    font-size: clamp(14px, 1.5vw, 5rem);
+}
+
+.navegar .mobile-menu{
+    display: none;
+}
+
+.rodape{
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+}
+
+.stars-caixa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars{
+    width: 50px;
+    height: 40px;
+}
